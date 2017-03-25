@@ -1,0 +1,40 @@
+$main-color: #0f0f6f;
+
+#mc_embed_signup{
+	background:#fff;
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
+	transform: translate(0,100px);
+	transition: 1s;
+	
+	input.button { 
+		background-color: $main-color;
+		margin: auto;
+	}	
+	
+	
+	input.email {
+		margin: 10px auto;
+	}
+}
+
+#logo{
+	text-align:center;
+		img{
+			width: 800px;
+		}
+	}
+	
+.move {
+	transform: translate(0,100); 
+	-webkit-transform: translate(0,100);
+}
+	
+.button {
+	background: -moz-linear-gradient(top,#BFE5F2, #63B3D2 50%,#0081B4 50%,#00679A);
+	background: -webkit-gradient(linear, left top, left bottom, from(#BFE5F2), color-stop(0.5,#63B3D2), color-stop(0.5,#0081B4), to(#00679A));
+	border: 1px solid #DDD;
+	color: #FFF;
+	width: 100px;
+	padding: 10px 0;
+}
