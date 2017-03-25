@@ -2,8 +2,7 @@
   background: #fff;
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
-  transform: translate(0, 100px);
-  transition: 1s; }
+  margin-top: 50px; }
   #mc_embed_signup input.button {
     background-color: #0f0f6f;
     margin: auto; }
@@ -16,8 +15,8 @@
     width: 800px; }
 
 .move {
-  transform: translate(0, 100);
-  -webkit-transform: translate(0, 100); }
+  transform: translate(0, 100px);
+  -webkit-transform: translate(0, 100px); }
 
 .button {
   background: -moz-linear-gradient(top, #BFE5F2, #63B3D2 50%, #0081B4 50%, #00679A);

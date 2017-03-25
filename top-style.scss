@@ -4,14 +4,12 @@ $main-color: #0f0f6f;
 	background:#fff;
 	clear:left;
 	font:14px Helvetica,Arial,sans-serif;
-	transform: translate(0,100px);
-	transition: 1s;
-	
+	margin-top:50px;
+
 	input.button { 
 		background-color: $main-color;
 		margin: auto;
 	}	
-	
 	
 	input.email {
 		margin: 10px auto;
@@ -26,8 +24,8 @@ $main-color: #0f0f6f;
 	}
 	
 .move {
-	transform: translate(0,100); 
-	-webkit-transform: translate(0,100);
+	transform: translate(0,100px); 
+	-webkit-transform: translate(0,100px);
 }
 	
 .button {
@@ -38,3 +36,5 @@ $main-color: #0f0f6f;
 	width: 100px;
 	padding: 10px 0;
 }
+
+
